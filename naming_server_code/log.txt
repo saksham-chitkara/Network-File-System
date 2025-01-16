@@ -1,0 +1,29 @@
+05:50:00: { "type": "storage_server_register", "ip": "10.1.128.96", "nm_port": 43016, "client_port": 7000, "ss_id": 1, "paths": [ "c2\/", "c4\/", "saksham\/", "myfile\/", "hello1\/", "shivom\/", "helllo1\/", "c4\/ram2.c", "c4\/new.txt", "c4\/new2.txt", "c4\/ram3.txt", "c4\/new3.txt", "c4\/ram.c", "saksham\/test.txt", "myfile\/file.txt", "hello1\/test.txt", "shivom\/hjweif.txt", "helllo1\/fil\/", "helllo1\/test.txt", "helllo1\/fil\/file.txt" ] }
+05:50:05: { "type": "storage_server_register", "ip": "10.1.128.96", "nm_port": 43016, "client_port": 7001, "ss_id": 2, "paths": [ "c4\/", "extrafile.txt", "c3", "c4\/sita2.txt", "c4\/sita.txt" ] }
+05:50:08: { "type": "storage_server_register", "ip": "10.1.128.96", "nm_port": 43016, "client_port": 9000, "ss_id": 3, "paths": [ ] }
+05:50:09: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_3\/" }
+05:50:09: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_3\/" }
+05:50:12: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:14: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:14: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:14: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:15: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_1\/" }
+05:50:20: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_2\/" }
+05:50:20: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:20: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:23: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:24: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_1\/" }
+05:50:24: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:24: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:24: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "path not created : may be server already has the same path", "operation": "create_empty", "path": "replica_2\/" }
+05:50:25: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:25: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:25: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:39: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:39: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:45: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:50:50: { "client_id": -1, "type": "naming_server_related", "status": "success", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:51:04: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:51:08: { "type": "client_request", "operation": "write", "path": "c4\/sita.txt", "request_id": 1, "sync": false, "client_ip": "10.1.128.96", "client_port": 40204, "append_flag": false }
+05:51:15: { "client_id": -1, "type": "naming_server_related", "status": "failure", "error": "No error", "operation": "replica", "path": "10.1.128.96" }
+05:51:25: { "type": "client_request", "operation": "read", "path": "c4\/sita.txt", "request_id": 2, "client_ip": "10.1.128.96", "client_port": 40204 }
