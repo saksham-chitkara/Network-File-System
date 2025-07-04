@@ -1,0 +1,6 @@
+dir_gywnw/
+dir_gywnw/dir_fzxpq/
+dir_gywnw/dir_fzxpq/dir_rzuni/
+dir_gywnw/dir_fzxpq/dir_rzuni/dir_eqfej/
+dir_gywnw/dir_fzxpq/dir_rzuni/dir_aqmhk/
+dir_gywnw/dir_fzxpq/dir_rzuni/dir_eqfej/file_wux.txt
